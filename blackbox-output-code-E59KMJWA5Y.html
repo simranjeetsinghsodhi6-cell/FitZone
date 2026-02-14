@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitZone Fitness - Your Ultimate Gym Experience</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <h1 class="logo">FitZone Fitness</h1>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#classes">Classes</a></li>
+                <li><a href="#trainers">Trainers</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <h2>Transform Your Body, Elevate Your Life</h2>
+            <p>Join FitZone Fitness and unleash your potential with world-class training and equipment.</p>
+            <a href="#pricing" class="cta-button">Get Started Today</a>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="section about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>At FitZone Fitness, we're more than a gym – we're a community dedicated to helping you achieve your fitness goals. With state-of-the-art facilities, expert trainers, and a variety of classes, we provide the tools and motivation you need to succeed.</p>
+        </div>
+    </section>
+
+    <!-- Classes Section -->
+    <section id="classes" class="section classes">
+        <div class="container">
+            <h2>Our Classes</h2>
+            <div class="classes-grid">
+                <div class="class-card">
+                    <h3>Yoga</h3>
+                    <p>Relax and strengthen your mind and body with our expert-led yoga sessions.</p>
+                </div>
+                <div class="class-card">
+                    <h3>HIIT</h3>
+                    <p>High-intensity interval training to burn fat and build endurance fast.</p>
+                </div>
+                <div class="class-card">
+                    <h3>Strength Training</h3>
+                    <p>Build muscle and power with personalized weightlifting programs.</p>
+                </div>
+                <div class="class-card">
+                    <h3>Cardio Blast</h3>
+                    <p>Energize your workouts with heart-pumping cardio routines.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trainers Section -->
+    <section id="trainers" class="section trainers">
+        <div class="container">
+            <h2>Meet Our Trainers</h2>
+            <div class="trainers-grid">
+                <div class="trainer-card">
+                    <img src="https://picsum.photos/300/300?random=1" alt="Trainer 1">
+                    <h3>Alex Johnson</h3>
+                    <p>Certified personal trainer specializing in strength and conditioning.</p>
+                </div>
+                <div class="trainer-card">
+                    <img src="https://picsum.photos/300/300?random=2" alt="Trainer 2">
+                    <h3>Sarah Lee</h3>
+                    <p>Yoga and mindfulness expert with 10+ years of experience.</p>
+                </div>
+                <div class="trainer-card">
+                    <img src="https://picsum.photos/300/300?random=3" alt="Trainer 3">
+                    <h3>Mike Torres</h3>
+                    <p>HIIT and cardio specialist helping clients achieve peak fitness.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="section pricing">
+        <div class="container">
+            <h2>Membership Plans</h2>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h3>Basic</h3>
+                    <p class="price">$29/month</p>
+                    <ul>
+                        <li>Access to gym equipment</li>
+                        <li>1 group class per week</li>
+                        <li>Locker room access</li>
+                    </ul>
+                    <a href="#contact" class="cta-button">Sign Up</a>
+                </div>
+                <div class="pricing-card featured">
+                    <h3>Premium</h3>
+                    <p class="price">$49/month</p>
+                    <ul>
+                        <li>All Basic features</li>
+                        <li>Unlimited group classes</li>
+                        <li>Personal trainer sessions</li>
+                        <li>Nutrition consultation</li>
+                    </ul>
+                    <a href="#contact" class="cta-button">Sign Up</a>
+                </div>
+                <div class="pricing-card">
+                    <h3>VIP</h3>
+                    <p class="price">$79/month</p>
+                    <ul>
+                        <li>All Premium features</li>
+                        <li>24/7 access</li>
+                        <li>Private locker</li>
+                        <li>Guest passes</li>
+                    </ul>
+                    <a href="#contact" class="cta-button">Sign Up</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BMI Calculator Section -->
+    <section id="bmi" class="section bmi">
+        <div class="container">
+            <h2>BMI Calculator</h2>
+            <form id="bmi-form">
+                <label for="height">Height (cm):</label>
+                <input type="number" id="height" required>
+                <label for="weight">Weight (kg):</label>
+                <input type="number" id="weight" required>
+                <button type="submit">Calculate BMI</button>
+            </form>
+            <div id="bmi-result"></div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer" class="footer">
+        <div class="container">
+            <p>&copy; 2023 FitZone Fitness. All rights reserved.</p>
+            <div class="social-icons">
+                <a href="#" aria-label="Facebook">📘</a>
+                <a href="#" aria-label="Instagram">📷</a>
+                <a href="#" aria-label="Twitter">🐦</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
